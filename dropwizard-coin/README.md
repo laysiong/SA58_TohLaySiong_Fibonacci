@@ -21,12 +21,8 @@ How to test the application
 ---
 You will be able to connect to it using POSTMAN
 
-Set the query to POST
-THE URL should be http://localhost:8000/api/count 
-Click Body
-      Select raw, ensure the format(last col on right) is JSON
-      //set the value, coinstype and targetAmt is what it looks for in a form.
-      {
-           "coinstype": [0.01,0.20, 0.50, 1, 5, 10],
-            "targetAmt": 9.28
-      }
+1. Set the query to POST
+1. THE URL should be http://localhost:8000/api/count 
+1. Click Body
+1. Select raw, ensure the format(last col on right) is JSON
+1. Write JSON into the input { "coinstype": [0.01,0.20, 0.50, 1, 5, 10], "targetAmt": 9.28 }
