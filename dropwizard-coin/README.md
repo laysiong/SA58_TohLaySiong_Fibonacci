@@ -10,11 +10,11 @@ How to start the dropwizard_lays application
 
 How to build and run the container
 ---
-1.Start your Docker Desktop
-1.Open your terminal (I am using PowerShell)
-1.type cd (file directionary of the dropwizard-coin folder)
-1.type docker build -t container-name
-1.type docker run -p 8000:8080 container-name
+1. Start your Docker Desktop
+1. Open your terminal (I am using PowerShell)
+1. type cd (file directionary of the dropwizard-coin folder)
+1. type docker build -t container-name
+1. type docker run -p 8000:8080 container-name
 
 
 How to test the application
